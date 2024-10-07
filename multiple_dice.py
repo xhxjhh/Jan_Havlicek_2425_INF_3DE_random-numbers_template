@@ -1,7 +1,7 @@
 import random
 
 def roll_multiple_dice(n, k):
-    # Tvůj kód zde
+    return [random.randint(1, 6) for _ in range(n)]
     pass
 
 # Otestování funkce
